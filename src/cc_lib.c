@@ -1,5 +1,5 @@
 #include "mgos.h"
 
-bool mgos_empty_init(void) {
+bool mgos_cc_lib_init(void) {
   return true;
 }
