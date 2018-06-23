@@ -1,0 +1,27 @@
+name: cc_lib
+type: lib
+version: "1.0"
+platform: esp8266
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+- pic32
+- stm32
+author: mongoose-os
+description: An empty lib that does nothing
+sources:
+- /fwbuild-volumes/2.3/apps/cc_lib/esp8266/build_contexts/build_ctx_186311031/src/empty_lib.c
+includes:
+- /fwbuild-volumes/2.3/apps/cc_lib/esp8266/build_contexts/build_ctx_186311031/include
+libs:
+- origin: https://github.com/mongoose-os-libs/mongoose
+  location: https://github.com/mongoose-os-libs/mongoose
+  suffixtpl: ""
+tags:
+- c
+libs_version: "2.3"
+modules_version: "2.3"
+mongoose_os_version: "2.3"
+manifest_version: 2017-09-29
