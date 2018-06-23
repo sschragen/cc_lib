@@ -12,7 +12,7 @@ platforms:
 author: mongoose-os
 description: An empty lib that does nothing
 sources:
-- /fwbuild-volumes/2.3/apps/cc_lib/esp8266/build_contexts/build_ctx_186311031/src/empty_lib.c
+- /fwbuild-volumes/2.3/apps/cc_lib/esp8266/build_contexts/build_ctx_186311031/src/cc_lib.c
 includes:
 - /fwbuild-volumes/2.3/apps/cc_lib/esp8266/build_contexts/build_ctx_186311031/include
 libs:
